@@ -75,7 +75,7 @@ Build your village, manage your AI agents, and create your own living AI world!
 ## 🚀 Getting Started
 
 ### Installation
-1. Download `IAVillageGame.exe` from the [Releases](https://github.com/TatsumiDaku/IA-Village-Game/releases) section
+1. Download `IAVillageGame.exe` from the **Download** section below
 2. Run the executable
 3. Enjoy!
 
@@ -193,7 +193,9 @@ For permissions and licensing inquiries, please contact: GenFutureAI
 
 ## 🌟 Download
 
-**[⬇️ Download Latest Version](https://github.com/TatsumiDaku/IA-Village-Game/releases)**
+**[⬇️ Download Latest Version - Google Drive](https://drive.google.com/drive/folders/1SNu6u07rtN07UZYsX47Xmu6vB0U_w8Pz?usp=drive_link)**
+
+*Click the link above to access the game files*
 
 ---
 
