@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-v0.2.5-blue)
+![Version](https://img.shields.io/badge/version-v0.4.0-blue)
 ![Status](https://img.shields.io/badge/status-Active%20Development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows%20Desktop-0078D4)
@@ -56,6 +56,14 @@ Build your village, manage your AI agents, and create your own living AI world!
 - VSync support
 - Persistent volume settings
 
+### 🏰 Guild System
+| Feature | Description |
+|---------|-------------|
+| **Guild Creation** | Create and manage multiple guilds with unique colors |
+| **15 Structure Types** | Guild Hall, Casa de Agentes, Casa de Tareas, Casa de Terminal, Casa de Memoria, Banco Central, and more |
+| **Data Bridges** | Connect guilds with visual data flow bridges |
+| **Minimap** | Real-time world view with player, structures, and territories |
+
 ---
 
 ## 🕹️ Controls
@@ -66,7 +74,7 @@ Build your village, manage your AI agents, and create your own living AI world!
 | `S` / `↓` | Move Down |
 | `A` / `←` | Move Left |
 | `D` / `→` | Move Right |
-| `F` | Interact with structures |
+| `F` | Interact with structures (Guilds, Buildings) |
 | `Tab` | Camera zoom |
 | `☰` | Open dropdown menu |
 
@@ -75,7 +83,7 @@ Build your village, manage your AI agents, and create your own living AI world!
 ## 🚀 Getting Started
 
 ### Installation
-1. Download `IAVillageGame.exe` from the **Download** section below
+1. Download `IAVillageGame.exe` from the [Releases](https://github.com/TatsumiDaku/IA-Village-Game/releases) section
 2. Run the executable
 3. Enjoy!
 
@@ -85,6 +93,7 @@ Build your village, manage your AI agents, and create your own living AI world!
 3. Explore the world using **WASD** keys
 4. Access **Build Mode** from the dropdown menu (☰ button in top-right)
 5. **Build houses**, place accessories, and design your village
+6. **Press F** near structures to interact and manage Guilds
 
 ---
 
@@ -110,13 +119,20 @@ Build your village, manage your AI agents, and create your own living AI world!
 - [x] Audio and music system
 - [x] Resolution and volume settings
 - [x] 50+ houses and 50+ accessories
+- [x] Character selector (60 roles)
+- [x] Guild system with multiple guilds
+- [x] 15 Structure types (Guild Hall, Agents, Tasks, Terminal, Memory, etc.)
+- [x] Data bridges between guilds
+- [x] Real-time minimap with player tracking
+- [x] Structure interaction zones (press F)
+- [x] Guild panel with create/select functionality
+- [x] Connections panel for data bridges
 
 ### 🔄 In Development
-- [ ] Real NPC Agent system
-- [ ] Guild system
-- [ ] Agent management panel
+- [ ] Real NPC Agent system with AI integration
 - [ ] Multiplayer mode
 - [ ] Agent energy system
+- [ ] Backend Node.js integration
 
 ---
 
@@ -124,6 +140,8 @@ Build your village, manage your AI agents, and create your own living AI world!
 
 | Version | Date | Description |
 |---------|------|-------------|
+| v0.4.0 | 2026-04-10 | Guild system, structures, minimap, data bridges, interaction zones |
+| v0.3.0 | 2026-04-09 | Character selector, minimapa, conexiones entre guilds |
 | v0.2.5 | 2026-04-08 | Dropdown menu, return to menu fix, JSON resource loading, UI improvements |
 | v0.2.0 | 2026-04-05 | New TopHUDBar, construction system improvements |
 | v0.1.5 | 2026-04-05 | Complete settings panel |
@@ -193,9 +211,7 @@ For permissions and licensing inquiries, please contact: GenFutureAI
 
 ## 🌟 Download
 
-**[⬇️ Download Latest Version - Google Drive](https://drive.google.com/drive/folders/1SNu6u07rtN07UZYsX47Xmu6vB0U_w8Pz?usp=drive_link)**
-
-*Click the link above to access the game files*
+**[⬇️ Download Latest Version](https://github.com/TatsumiDaku/IA-Village-Game/releases)**
 
 ---
 
