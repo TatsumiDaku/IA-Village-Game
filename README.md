@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-v0.4.0-blue)
+![Version](https://img.shields.io/badge/version-v0.5.1-blue)
 ![Status](https://img.shields.io/badge/status-Active%20Development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows%20Desktop-0078D4)
@@ -15,118 +15,69 @@
 
 ## 🎮 Welcome to GEN_IA AGENT WORLD
 
-**GEN_IA AGENT WORLD** is a desktop application with pixel art aesthetics inspired by games like Stardew Valley, where every character represents a real or simulated AI agent. In this world, you don't just watch AI agents working—you inhabit a living world where agents move, connect, converse, build, rest, and execute tasks within a persistent visual ecosystem.
-
-Build your village, manage your AI agents, and create your own living AI world!
+**GEN_IA AGENT WORLD** is a desktop application where every character represents a real or simulated AI agent. Build your village, manage AI guilds, create data bridges between brains, and watch your living AI ecosystem thrive.
 
 ---
 
-## ✨ Key Features
+## ✨ What's New in v0.5.1
 
-### 🏘️ Construction System
-| Feature | Description |
-|---------|-------------|
-| **In-Game Editor** | Build and design your village directly within the game |
-| **50+ House Types** | Diverse residential buildings to construct |
-| **50+ Accessories** | Trees, rocks, fences, flowers, lights, and decorations |
-| **Object-based Collisions** | Interactive world with proper collision detection |
-
-### ⏰ Day/Night Cycle & Weather
-| Feature | Description |
-|---------|-------------|
-| **4 Visual Phases** | Dawn, Day, Sunset, Night with unique shaders |
-| **Dynamic Weather** | Rain and Wind effects with visual particles |
-| **Dynamic Lighting** | Street lamps and torches auto-activate at night |
-| **Time Controls** | Speed options: 1x, 2x, 4x, 10x |
-
-### 🎨 Pixel Art Aesthetics
-- Detailed pixel art graphics
-- Character sprites with 4-direction animations
-- Cohesive and atmospheric visual design
-- Classic village game feel
-
-### 🔊 Audio System
-- Time-based music (different tracks for each phase)
-- Ambient sound effects (rain, wind)
-- Independent volume controls: Master, Music, SFX
-
-### ⚙️ Configuration
-- Multiple screen resolution support
-- Windowed and Fullscreen modes
-- VSync support
-- Persistent volume settings
-
-### 🏰 Guild System
-| Feature | Description |
-|---------|-------------|
-| **Guild Creation** | Create and manage multiple guilds with unique colors |
-| **15 Structure Types** | Guild Hall, Casa de Agentes, Casa de Tareas, Casa de Terminal, Casa de Memoria, Banco Central, and more |
-| **Data Bridges** | Connect guilds with visual data flow bridges |
-| **Minimap** | Real-time world view with player, structures, and territories |
+### 🏰 Guild System Phase 4 - Complete!
+- **GuildHalls** with full AI configuration (brain, workspace, MCP tools)
+- **Data Bridges** with dual-color gradient cables connecting guilds
+- **Visual Connection System**: Flags, cables, and indicators
+- **15 Structure Types**: Guild Hall, Agents, Tasks, Terminal, Memory, APIs, MCP, and more
 
 ---
 
-## 🕹️ Controls
+## 🎯 Key Features
 
+### 🏘️ Village Building
+| Feature | Status |
+|---------|--------|
+| In-Game Editor | ✅ Complete |
+| 50+ House Types | ✅ Complete |
+| 50+ Accessories | ✅ Complete |
+| Day/Night Cycle | ✅ Complete |
+| Weather Effects | ✅ Complete |
+
+### 🤖 AI Guild System
+| Feature | Status |
+|---------|--------|
+| Guild Creation & Management | ✅ Complete |
+| AI Brain Configuration | ✅ Complete |
+| Workspace & MCP Tools | ✅ Complete |
+| Data Bridges (Visual Cables) | ✅ Complete |
+| Real-time Minimap | ✅ Complete |
+| Structure Assignment | ✅ Complete |
+
+### 🎮 Controls
 | Key | Action |
 |-----|--------|
-| `W` / `↑` | Move Up |
-| `S` / `↓` | Move Down |
-| `A` / `←` | Move Left |
-| `D` / `→` | Move Right |
-| `F` | Interact with structures (Guilds, Buildings) |
+| `W/A/S/D` | Move |
+| `F` | Interact with structures |
 | `Tab` | Camera zoom |
-| `☰` | Open dropdown menu |
-
----
-
-## 🚀 Getting Started
-
-### Installation
-1. Download `IAVillageGame.exe` from the [Releases](https://github.com/TatsumiDaku/IA-Village-Game/releases) section
-2. Run the executable
-3. Enjoy!
-
-### First Steps
-1. **Launch the game** from `IAVillageGame.exe`
-2. On the **Start Menu**, click **"Nuevo Mundo"** (New World)
-3. Explore the world using **WASD** keys
-4. Access **Build Mode** from the dropdown menu (☰ button in top-right)
-5. **Build houses**, place accessories, and design your village
-6. **Press F** near structures to interact and manage Guilds
-
----
-
-## 📋 System Requirements
-
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **OS** | Windows 10/11 (64-bit) | Windows 10/11 (64-bit) |
-| **CPU** | Intel Core i5 or equivalent | Intel Core i7 |
-| **RAM** | 4 GB | 8 GB |
-| **Disk** | 500 MB free | 1 GB free |
-| **Resolution** | 1280x720 | 1920x1080 |
+| `☰` | Dropdown menu |
+| `ESC` | Pause/Menu |
 
 ---
 
 ## 📊 Project Status
 
-### ✅ Implemented Features
-- [x] Complete Start Menu
+### ✅ Implemented (v0.5.1)
+- [x] Complete Start Menu & Character Selector (60 roles)
 - [x] Player movement with animations
-- [x] In-game construction system
-- [x] Day/night cycle with weather
-- [x] Audio and music system
-- [x] Resolution and volume settings
-- [x] 50+ houses and 50+ accessories
-- [x] Character selector (60 roles)
+- [x] In-game construction system (50+ houses, 50+ accessories)
+- [x] Day/night cycle with weather effects
+- [x] Audio system with time-based music
+- [x] Resolution & volume settings
 - [x] Guild system with multiple guilds
-- [x] 15 Structure types (Guild Hall, Agents, Tasks, Terminal, Memory, etc.)
-- [x] Data bridges between guilds
-- [x] Real-time minimap with player tracking
-- [x] Structure interaction zones (press F)
-- [x] Guild panel with create/select functionality
-- [x] Connections panel for data bridges
+- [x] AI configuration per guild (13 providers, 100+ models)
+- [x] Workspace providers (OpenCode, OpenHands, Claude CLI, etc.)
+- [x] MCP tools configuration (10 tools)
+- [x] Data bridges between guilds with visual cables
+- [x] Real-time minimap with territories
+- [x] Structure interaction zones
+- [x] Services panel for API management
 
 ### 🔄 In Development
 - [ ] Real NPC Agent system with AI integration
@@ -136,76 +87,47 @@ Build your village, manage your AI agents, and create your own living AI world!
 
 ---
 
-## 📝 Version History
+## 🚀 Getting Started
 
-| Version | Date | Description |
-|---------|------|-------------|
-| v0.4.0 | 2026-04-10 | Guild system, structures, minimap, data bridges, interaction zones |
-| v0.3.0 | 2026-04-09 | Character selector, minimapa, conexiones entre guilds |
-| v0.2.5 | 2026-04-08 | Dropdown menu, return to menu fix, JSON resource loading, UI improvements |
-| v0.2.0 | 2026-04-05 | New TopHUDBar, construction system improvements |
-| v0.1.5 | 2026-04-05 | Complete settings panel |
+1. **Download** `IAVillageGame.exe` from [Releases](https://github.com/TatsumiDaku/IA-Village-Game/releases)
+2. **Run** the executable
+3. **Click "Nuevo Mundo"** on the Start Menu
+4. **Explore** with WASD, **Build** from ☰ menu
+5. **Press F** near structures to manage Guilds & Bridges
 
 ---
 
-## 👥 Target Audience
+## 📝 Version History
 
-**GEN_IA AGENT WORLD** is designed for:
+| Version | Date | Highlights |
+|---------|------|------------|
+| **v0.5.1** | 2026-04-12 | Guild bridges fixes, dual-color cables |
+| **v0.5.0** | 2026-04-12 | Complete guild system, visual connections |
+| **v0.4.4** | 2026-04-11 | AI brain config, MCP tools, services panel |
+| **v0.4.0** | 2026-04-09 | Interaction zones, premium UI |
+| **v0.3.0** | 2026-04-09 | Guilds, structures, minimap |
+| **v0.2.5** | 2026-04-08 | Dropdown menu, settings |
 
-- **Software developers** working with multiple AI agents in parallel
-- **Researchers and power users** of tools like Claude, GPT, OpenCode
-- **Technical teams** wanting to visualize and coordinate agent pipelines
-- **Simulation game enthusiasts** who enjoy building and managing virtual worlds
-- **Technical users** seeking a more intuitive AI management experience than terminals
+---
+
+## 💡 Target Audience
+
+- **Software developers** working with multiple AI agents
+- **Technical teams** visualizing agent pipelines
+- **Simulation enthusiasts** who enjoy building worlds
+- **AI power users** seeking visual management over terminals
 
 ---
 
 ## 📬 Contact & Support
 
-For bug reports, suggestions, or contributions, please visit our [GitHub Issues](https://github.com/TatsumiDaku/IA-Village-Game/issues) page.
+Bug reports & suggestions: [GitHub Issues](https://github.com/TatsumiDaku/IA-Village-Game/issues)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2026 GenFutureAI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
----
-
-## 🔒 Copyright Notice
-
-```
-Copyright (c) 2026 GenFutureAI. All rights reserved.
-
-GEN_IA AGENT WORLD is a proprietary software product. No part of this
-publication may be reproduced, distributed, or transmitted in any form or
-by any means, including photocopying, recording, or other electronic or
-mechanical methods, without the prior written permission of the publisher,
-except in the case of brief quotations embodied in critical reviews and
-certain other noncommercial uses permitted by copyright law.
-
-For permissions and licensing inquiries, please contact: GenFutureAI
-```
+**MIT License** - Copyright (c) 2026 GenFutureAI
 
 ---
 
@@ -217,7 +139,7 @@ For permissions and licensing inquiries, please contact: GenFutureAI
 
 <div align="center">
 
-*Build your world. Manage your agents. Create your own AI village.*
+*Build your world. Connect your brains. Create your AI village.*
 
 **GEN_IA AGENT WORLD** — *Where technology comes to life*
 
